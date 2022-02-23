@@ -5,7 +5,15 @@
     Author: Ivo Schwizer
     Author URI: http://schwizerschlatter.com
     Tags: No Tags
+
+    Color:
+    Black: #202020
+    Gray-Activ: #5c5c5c
 */
+
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin:0px;
@@ -13,13 +21,19 @@ body {
     background-color: #202020;
 }
 
-h1, h2, h3 {
-    color: #57634e;
-    font-weight: 400;
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, a {
+    color: #fff;
+    font-weight: 300;
     font-style: normal;
-    font-family: 'PT Serif', serif;
-    font-size: 17px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
     line-height: 1.4;
+    letter-spacing: 1.5px;
     text-align: left;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -27,7 +41,22 @@ h1, h2, h3 {
     hyphens: auto;
     -webkit-hyphens: auto;
     text-decoration: none;
-    letter-spacing: 0.75px;
+}
+h1 {
+  font-size: 55px;
+}
+
+h1.project_description {
+  font-size: 25px;
+}
+.wl-projekt h1 {
+  font-size: 18px;
+  margin: 0 0 25px 0;
+  padding: 5px;
+  border-bottom: 1px solid #5c5c5c;
+}
+a {
+  font-size: 55px;
 }
 
 
@@ -35,8 +64,10 @@ h1, h2, h3 {
 header
 -----------------------------------*/
 .logo {
-  z-index: 100;
+  z-index: 8;
   position: fixed;
+  left: 50px;
+  top: 40px;
 }
 .navicon {
   width: 55px;
@@ -45,7 +76,7 @@ header
   top: 40px;
   right: 40px;
   cursor: pointer;
-  z-index: 99;
+  z-index: 10;
 }
 .navicon span{
   width: 5px;
@@ -67,18 +98,104 @@ header
 span.naviconhover {
   width: 35px;
 }
+span.minusactiv {
+  width: 5px;
+}
+
+/*--navigation activ--*/
+.nav, .navconfirst, .navconsecond, .navlink li a {
+  transition: all 1s cubic-bezier(0.4, 0.6, 0.4, 1);
+}
+
 .nav {
-  background-color: lightblue;
+  background-color: #202020;
   width: 100%;
   height: 100vh;
   position: fixed;
-  z-index: 98;
-  top: 0;
-  display: none;
+  z-index: 9;
+  visibility: hidden;
+  opacity: 0;
 }
 .navactiv {
-  display: block;
+  visibility: visible;
+  opacity: 1;
 }
+
+.navconfirst {
+  width: calc(50% - 100px);
+  height: calc(100vh - 100px);
+  margin: 50px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  left: 0;
+}
+.navconfirst img {
+  width: 100%;
+}
+.navlink li a {
+  cursor: pointer;
+}
+.navlinkactiv a {
+  color: #5c5c5c;
+}
+.navconsecond {
+  width: calc(50% - 100px);
+  margin: 50px 100px 50px 0px;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  right: -100%;
+  left: auto;
+}
+.firstmove {
+  left: -50%;
+}
+.secondmove {
+  right: 0;
+}
+
+/*--nav-projekte--*/
+
+
+/*--navigation back--*/
+.back-button {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.4, 0.6, 0.4, 1);
+  transition-delay: 0s;
+}
+.bb-line, .bb-arrow {
+  width: 35px;
+  height: 5px;
+  top: 15.5px;
+  background-color: #fff;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: all 0.1s cubic-bezier(0.4, 0.6, 0.4, 1);
+}
+.bb-arrow {
+  width: 25px;
+}
+.bb-arrow.up {
+  top: 14px;
+  transform: rotate(45deg);
+}
+.bb-arrow.down {
+  top: 17px;
+  transform: rotate(-45deg);
+}
+.back-button.backmove {
+  bottom: 0;
+  transition-delay: 0.5s;
+}
+
+
+
 
 /*----------------------------------
 slideshow
@@ -86,13 +203,44 @@ slideshow
 #slideshow div {
   position: absolute;
   top: 0;
+  left: 0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 100vh;
-  z-index: 1
+  z-index: 1;
 }
+
+#slideshow div h1 {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  margin-bottom: 30px;
+}
+
+/*----------------------------------
+accordion
+-----------------------------------*/
+
+.navconseccontainer {
+  height: calc(100vh - 100px);
+  overflow:auto;
+  position:relative;
+}
+.accTitle {
+  margin-top: 0px;
+  cursor: pointer;
+  border-bottom: 1px solid #5c5c5c;
+  padding: 5px;
+}
+.accList {
+    display: none;
+}
+
+
+
+
 
 
 /*----------------------------------

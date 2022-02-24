@@ -9,7 +9,7 @@
 			<span ></span>
 		</div>
 
-		<div class="navcontainer navactiv">
+		<div class="navcontainer ">
 			<div class="navlist">
 					<button data-toggle="#projekte" type="button" name="projekte">
 						<span>Projekte</span>
@@ -25,10 +25,10 @@
 					</button>
 			</div>
 			<div class="navcontent">
-					<div class="blbl" id="projekte">
+					<div id="projekte">
 						hallo
 					</div>
-					<div class="blbl red" id="wettbewerbe">
+					<div id="wettbewerbe">
 						wett
 					</div>
 			</div>

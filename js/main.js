@@ -10,41 +10,21 @@ $(document).ready(function () {
         $(".nav").toggleClass("navactiv");
     });
 
+    // navigation //
+
+    $('button').click(function() {
+       var thisid = $(this).attr("data-toggle");
+       var otherids = $(this).siblings().attr("data-toggle");
+       var otherbuttons = $(this).siblings();
+
+       $(thisid).addClass('show');
+       $(otherids).removeClass('show');
+       $(otherbuttons).removeClass('resize').addClass('activ').children('span').removeClass('activ');
+       $(this).addClass('resize').removeClass('activ');
+   });
 
 
-    $('.p-button').click(function(){
-        $('.navconfirst').addClass('firstmove');
-        $('.navconsecond').removeClass('secondmove');
-        $('.projekte').addClass('secondmove');
-        $('.back-button').addClass('backmove');
-        $(this).removeClass('navlinkactiv');
-        $(this).siblings().addClass('navlinkactiv');
-    });
 
-    $('.wb-button').click(function(){
-        $('.navconfirst').addClass('firstmove');
-        $('.navconsecond').removeClass('secondmove');
-        $('.wettbewerbe').addClass('secondmove');
-        $('.back-button').addClass('backmove');
-        $(this).removeClass('navlinkactiv');
-        $(this).siblings().addClass('navlinkactiv');
-    });
-
-    $('.wl-button').click(function(){
-        $('.navconfirst').addClass('firstmove');
-        $('.navconsecond').removeClass('secondmove');
-        $('.werkliste').addClass('secondmove');
-        $('.back-button').addClass('backmove');
-        $(this).removeClass('navlinkactiv');
-        $(this).siblings().addClass('navlinkactiv');
-    });
-
-    $('.back-button').click(function(){
-        $('.navconfirst').removeClass('firstmove');
-        $('.navconsecond').removeClass('secondmove');
-        $('.back-button').removeClass('backmove');
-        $('.navlink').children().removeClass('navlinkactiv');
-    });
 
 
     // slideshow //

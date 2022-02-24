@@ -9,162 +9,30 @@
 			<span ></span>
 		</div>
 
-		<div class="nav">
-
-			<div class="navconfirst">
-				<img src="img/art-of-loft-architektur-projekt-neubau-8-oeserigi-appenzell-innerrhoden-schwende-wasserauen-eigentumswohnungen-2022.jpg" alt="">
-				<h2>aktuell</h2>
-				<h1 class="project_description">Neubau, Realisation ab 2022</h1>
+		<div class="navcontainer navactiv">
+			<div class="navlist">
+					<button data-toggle="#projekte" type="button" name="projekte">
+						<span>Projekte</span>
+					</button>
+					<button  data-toggle="#wettbewerbe" type="button" name="wettbewerbe">
+						<span>Wettbewerbe</span>
+					</button>
+					<button  data-toggle="#werkliste" type="button" name="werkliste">
+						<span>Werkliste</span>
+					</button>
+					<button  data-toggle="#kontakt" type="button" name="kontakt">
+						<span>Kontakt</span>
+					</button>
 			</div>
-
-			<div class="navconfirst">
-				<ul class="navlink">
-					<li class="p-button"><a >Projekte</a></li>
-					<li class="wb-button"><a >Wettbewerbe</a></li>
-					<li class="wl-button"><a >Werkliste</a></li>
-				</ul>
-				<div class="back-button">
-					<span class="bb-line"></span>
-					<span class="bb-arrow up"></span>
-					<span class="bb-arrow down"></span>
-				</div>
+			<div class="navcontent">
+					<div class="blbl" id="projekte">
+						hallo
+					</div>
+					<div class="blbl red" id="wettbewerbe">
+						wett
+					</div>
 			</div>
-
-			<div class="navconsecond projekte">
-				<div class="navconseccontainer">
-					<h1>test projekte Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-
-Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
-
-At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-
-Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-
-Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</h1>
-			
-				</div>
-			</div>
-
-			<div class="navconsecond wettbewerbe">
-					<h1>test wettbewerbe</h1>
-			</div>
-
-			<div class="navconsecond werkliste">
-				<div class="navconseccontainer">
-					<h3 class="accTitle">2022</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-							<div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-					<h3 class="accTitle">2021</h3>
-          <div class="accList">
-              <div class="wl-projekt">
-              	<h1>projektname</h1>
-              </div>
-          </div>
-        </div>
-			</div>
-
 		</div>
 	</nav>
+
 </header>

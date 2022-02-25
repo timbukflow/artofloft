@@ -7,21 +7,47 @@ $(document).ready(function () {
     });
 
     $(".navicon").click(function() {
-        $(".nav").toggleClass("navactiv");
+        $(".navcontainer").toggleClass("navactiv");
     });
 
     // navigation //
 
     $('button').click(function() {
-       var thisid = $(this).attr("data-toggle");
-       var otherids = $(this).siblings().attr("data-toggle");
+       var thisid = $(this).attr('data-toggle');
        var otherbuttons = $(this).siblings();
 
-       $(thisid).addClass('show');
-       $(otherids).removeClass('show');
-       $(otherbuttons).removeClass('resize').addClass('activ').children('span').removeClass('activ');
+       $('.navcontent').hide();
+       $(thisid).show();
+       $(otherbuttons).removeClass('resize').addClass('activ');
        $(this).addClass('resize').removeClass('activ');
    });
+
+
+
+   // in view function  //
+
+
+   $.fn.isInViewport = function() {
+  var elementTop = $(this).offset().top;
+  var elementBottom = elementTop + $(this).outerHeight();
+
+  var viewportTop = $(window).scrollTop();
+  var viewportBottom = viewportTop + $(window).height();
+
+  return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
+$(window).on('resize scroll', function() {
+  $('.viewer').each(function() {
+      var number = $(this).attr('id');
+    if ($(this).isInViewport()) {
+      $('#number-' + number).addClass('inview');
+    } else {
+      $('#number-' + number).removeClass('inview');
+    }
+  });
+});
+
 
 
 

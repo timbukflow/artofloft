@@ -3,9 +3,8 @@ $(document).ready(function () {
     // navicon //
 
     $(".navicon").hover(function() {
-        $(this).find("span").toggleClass("naviconhover");
+        $(this).children().toggleClass('naviconmove');
     });
-
     $(".navicon").click(function() {
         $(".navcontainer").toggleClass("navactiv");
     });
@@ -16,42 +15,49 @@ $(document).ready(function () {
        var thisid = $(this).attr('data-toggle');
        var otherbuttons = $(this).siblings();
 
+       $(window).scrollTop(0);
+
        $('.navcontent').hide();
-       $(thisid).show();
+       $(thisid).fadeIn(1000);
+
+       $('.navcontent').children().removeClass('inview');
+       $(thisid).children('article:first-child').addClass('inview');
+
        $(otherbuttons).removeClass('resize').addClass('activ');
        $(this).addClass('resize').removeClass('activ');
    });
 
 
-
    // in view function  //
 
-
    $.fn.isInViewport = function() {
-  var elementTop = $(this).offset().top;
-  var elementBottom = elementTop + $(this).outerHeight();
+     var elementTop = $(this).offset().top;
+     var elementBottom = elementTop + $(this).outerHeight();
 
-  var viewportTop = $(window).scrollTop();
-  var viewportBottom = viewportTop + $(window).height();
+     var viewportTop = $(window).scrollTop();
+     var viewportBottom = viewportTop + $(window).height();
 
-  return elementBottom > viewportTop && elementTop < viewportBottom;
-};
+     return elementBottom > viewportTop && elementTop < viewportBottom;
+   };
 
-$(window).on('resize scroll', function() {
-  $('.viewer').each(function() {
-      var number = $(this).attr('id');
-    if ($(this).isInViewport()) {
-      $('#number-' + number).addClass('inview');
-    } else {
-      $('#number-' + number).removeClass('inview');
-    }
-  });
-});
+   $(window).on('resize scroll', function() {
+     $('.viewport').each(function() {
+       var number = $(this).attr('id');
+       if ($(this).isInViewport()) {
+         $('#object-' + number).addClass('inview');
+       } else {
+         $('#object-' + number).removeClass('inview');
+       }
+     });
+   });
 
+   // accordion //
 
-
-
-
+    $('.accTitle').click(function() {
+       $accordion = $(this).next('.accList');
+       $('.accList').not($accordion).slideUp(400);
+       $accordion.stop(true, false).slideToggle(400);
+   });
 
     // slideshow //
 
@@ -66,12 +72,6 @@ $(window).on('resize scroll', function() {
       .appendTo('#slideshow');
     }, 5000);
 
-    // accordion //
 
-     $('.accTitle').click(function() {
-        $accordion = $(this).next('.accList');
-        $('.accList').not($accordion).slideUp(400);
-        $accordion.stop(true, false).slideToggle(400);
-    });
 
 });

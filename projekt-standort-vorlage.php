@@ -16,18 +16,30 @@
     <div class="logo">
   		<a href="index"><img src="img/artofloft-logo.svg" alt="Art of Loft Logo" width="220px" height="auto"></a>
   	</div>
-    <div class="description">
-      <h1>Projektname <span>Standort</span><span>Projektumschreibung</span><span>Projektstatus</span></h1>
-    </div>
-    <figure class="projektstartimg">
-      <img src="img/artofloft-test.jpg" alt="aol-test">
-      <figcaption>Bildbeschreibung</figcaption>
-    </figure>
-    <div class="description">
-      <p>
-        Bauherrschaft: Hochbauamt Kanton St.Gallen Der Neubau wird an die Grenze zur weiten Fläche der Landwirtschaftszone gesetzt. Mit der rechtwinkligen Erweiterung wird der Schul- und Internatstrakt mit Hausmeisterwohnung klar voneinander getrennt. Die unterschiedlichen Raumhöhen des dreigeschossigen Wohn- und des zweigeschossigen Schultrakts erlauben eine durchgehende Gebäudehöhe, die sich beruhigend auf das heterogene Ensemble auswirkt. Der bestehende Werkhof wird zu einem Gegenüber, das Verwaltungsgebäude zu einer seitlichen Begrenzung.
-      </p>
-    </div>
+    <section class="projektcontainer">
+      <div class="description">
+        <h1>Projektname <span>Standort</span><span>Projektumschreibung</span><span>Projektstatus</span></h1>
+      </div>
+      <figure class="projektstartimg">
+        <img src="img/artofloft-test.jpg" alt="aol-test">
+        <figcaption>Bildbeschreibung</figcaption>
+      </figure>
+      <div class="description">
+        <p>
+          Bauherrschaft: Hochbauamt Kanton St.Gallen Der Neubau wird an die Grenze zur weiten Fläche der Landwirtschaftszone gesetzt. Mit der rechtwinkligen Erweiterung wird der Schul- und Internatstrakt mit Hausmeisterwohnung klar voneinander getrennt. Die unterschiedlichen Raumhöhen des dreigeschossigen Wohn- und des zweigeschossigen Schultrakts erlauben eine durchgehende Gebäudehöhe, die sich beruhigend auf das heterogene Ensemble auswirkt. Der bestehende Werkhof wird zu einem Gegenüber, das Verwaltungsgebäude zu einer seitlichen Begrenzung.
+        </p>
+      </div>
+      <figure class="projektimg">
+        <img src="img/artofloft-test-02.jpg" alt="aol-test">
+        <figcaption>Bildbeschreibung</figcaption>
+      </figure>
+    </section>
+    <section class="nextprojektcontainer">
+      <h1>projekte</h1>
+
+  
+    </section>
+
   </div>
 
 

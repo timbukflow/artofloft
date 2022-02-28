@@ -2,18 +2,20 @@ $(document).ready(function () {
 
     // navicon //
 
-    $('.navicon').hover(function() {
-        $(this).children().toggleClass('naviconhover');
-    });
+
     $('.navicon').click(function() {
-        $('button').removeClass('activ resize');
         $('.navcontent').hide();
-        $('.navcontainer').toggleClass('navactiv');
-        $('.maincontainer').toggleClass('mainactiv');
-        //arrowmover
-        $(this).toggleClass('naviconmove')
+        $('button').removeClass('activ resize');
+
+        setTimeout(function() {
+          $('.navcontainer').toggleClass('navactiv');
+          $('.maincontainer').fadeToggle(750);
+          //arrowmover
+          $('.navicon').toggleClass('naviconmove');
+    }, 150);
 
     });
+
 
     // navigation //
 
@@ -24,7 +26,7 @@ $(document).ready(function () {
        $(window).scrollTop(0);
 
        $('.navcontent').hide();
-       $(thisid).fadeIn(1000);
+       $(thisid).fadeIn(700);
 
        $('.navcontent').children().removeClass('inview');
        $(thisid).children('article:first-child').addClass('inview');

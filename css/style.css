@@ -133,17 +133,13 @@ header
 
 /*--navigation--*/
 .navcontainer {
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  overflow: hidden;
+  position: relative;
   top: -100vh;
   z-index: 9;
   transition: all 0.75s cubic-bezier(.2,0,.4,1);
 }
   .navactiv {
     top: 0;
-    overflow: visible;
   }
   .navbackground {
     position: fixed;
@@ -224,7 +220,7 @@ header
 
 /*--navigation kontakt--*/
 #kontakt{
-  bottom: 0;
+    top: 50px;
 }
 
 
@@ -258,35 +254,33 @@ projekt site
 
 .maincontainer {
   width: 100%;
-  top:0;
-  position: relative;
-  overflow: scroll;
-  height: 100vh;
-  transition: all 0.75s cubic-bezier(.2,0,.4,1);
 }
 .maincontainer img {
   width: 100%;
 }
-.mainactiv {
-    top: 100vh;
-    position: fixed;
+.description {
+  float: right;
+  width: 50%;
+  position: relative;
+  margin: 100px 0px 75px 0px;
+  padding-right: 75px;
+}
+.projektstartimg {
+  margin-left: 150px;
+}
+.projektimg {
+  margin-left: 150px;
+  width: 60%;
 }
 
-.description {
-  float: right;
-  width: 50%;
-  position: relative;
-  margin: 100px 0 75px;
+/*--next projekt controller--*/
+.nextprojektcontainer {
+  margin-top: 150px;
+  width: 100%;
+  height: 50px;
 }
-.description {
-  float: right;
-  width: 50%;
-  position: relative;
-  margin: 100px 0 75px;
-}
-.projektstartimg{
-  margin: 0px 150px;
-}
+
+
 
 
 

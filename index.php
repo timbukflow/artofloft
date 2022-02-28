@@ -12,18 +12,23 @@
 </head>
 <body>
   <?php include 'header.php'; ?>
-  <div id="slideshow">
-    <div style="background-image: url('./img/artofloft-test.jpg');" alt="Projektbeschreibung">
-      <h1 >Projekt 01</h1>
+  <div class="maincontainer">
+    <div class="logo">
+      <a href="index"><img src="img/artofloft-logo.svg" alt="Art of Loft Logo" width="220px" height="auto"></a>
     </div>
-    <div style="background-image: url('./img/artofloft-test-02.jpg');">
-      <h1>Projekt 02</h1>
+    <div id="slideshow">
+      <div style="background-image: url('img/artofloft-test.jpg');" alt="Projektbeschreibung">
+        <a href="projekt-standort-vorlage"><h1 >Projekt 01</h1></a>
+      </div>
+      <div style="background-image: url('img/artofloft-test-02.jpg');">
+        <a href="projekt-standort-vorlage"><h1 >Projekt 02</h1></a>
+      </div>
+      <div style="background-image: url('img/artofloft-test-03.jpg');">
+        <a href="projekt-standort-vorlage"><h1 >Projekt 03</h1></a>
+      </div>
     </div>
-    <div style="background-image: url('./img/artofloft-test-03.jpg');">
-      <h1>Projekt 03</h1>
-    </div>
-
   </div>
+
 
   <?php include 'footer.php'; ?>
 </body>

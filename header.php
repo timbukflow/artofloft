@@ -1,7 +1,4 @@
 <header>
- <div class="logo">
-		<a href=""><img src="img/artofloft-logo.svg" alt="Art of Loft Logo" width="180px" height="auto"></a>
-	</div>
 	<nav>
 		<div class="navicon">
 			<span ></span>
@@ -9,7 +6,7 @@
 			<span ></span>
 		</div>
 
-		<div class="navcontainer navactiv ">
+		<div class="navcontainer ">
 			<div class="navlist">
 					<button data-toggle="#projekte" type="button" name="projekte"><div>Projekte</div></button>
 					<button data-toggle="#wettbewerbe" type="button" name="wettbewerbe"><div>Wettbewerbe</div></button>

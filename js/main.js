@@ -2,11 +2,17 @@ $(document).ready(function () {
 
     // navicon //
 
-    $(".navicon").hover(function() {
-        $(this).children().toggleClass('naviconmove');
+    $('.navicon').hover(function() {
+        $(this).children().toggleClass('naviconhover');
     });
-    $(".navicon").click(function() {
-        $(".navcontainer").toggleClass("navactiv");
+    $('.navicon').click(function() {
+        $('button').removeClass('activ resize');
+        $('.navcontent').hide();
+        $('.navcontainer').toggleClass('navactiv');
+        $('.maincontainer').toggleClass('mainactiv');
+        //arrowmover
+        $(this).toggleClass('naviconmove')
+
     });
 
     // navigation //

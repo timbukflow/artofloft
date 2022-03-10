@@ -2,7 +2,6 @@ $(document).ready(function () {
 
     // navicon //
 
-
     $('.navicon').click(function() {
         $('.navcontent').hide();
         $('button').removeClass('activ resize');
@@ -15,7 +14,6 @@ $(document).ready(function () {
     }, 150);
 
     });
-
 
     // navigation //
 
@@ -69,7 +67,7 @@ $(document).ready(function () {
 
     // slideshow //
 
-    $("#slideshow > div:gt(0)").hide();
+    $('#slideshow > div:gt(0)').hide();
 
     setInterval(function() {
       $('#slideshow > div:first')
@@ -80,6 +78,33 @@ $(document).ready(function () {
       .appendTo('#slideshow');
     }, 5000);
 
+    // shuffle projekt //
 
+    $(function () {
+      var parent = $(".shuffleprojekt");
+      var divs = parent.children();
+      while (divs.length) {
+        parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+      }
+    });
+
+    $(function () {
+      var parent = $(".shufflenav");
+      var divs = parent.children();
+      while (divs.length) {
+        parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+      }
+    });
+
+    // impressum //
+
+    $('.impressum').click(function() {
+        var totoggle = $(this).attr("data-toggle");
+        $(totoggle).slideToggle(500);
+
+        if ($(totoggle).is(":visible")) {
+            $('html,body').animate({scrollTop:$(totoggle).offset().top}, 1000);
+        }
+    });
 
 });

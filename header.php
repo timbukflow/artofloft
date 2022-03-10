@@ -15,7 +15,7 @@
 			</div>
 
 				<!--container-projekte-->
-					<?php include 'projekt-overall.php'; ?>
+					<?php include 'projekt-overall-nav.php'; ?>
 
 				<!--container-wettbewerbe-->
 				<div class="navcontent" id="wettbewerbe">
@@ -38,12 +38,18 @@
 					<article class="npcontainer">
 						<h3 class="accTitle">2022</h3>
 						<div class="accList">
-							<p>Neubau Mönchhof, Lindau <span>Wettbewerb</span> </p>
+							<div class="werkimg">
+									<p>Neubau Mönchhof, Lindau <span>Wettbewerb</span> </p>
+									<img src="img/aol-test-02.jpg" alt="aol-test">
+							</div>
 							<p>Neubau Betriebsgebäude Rhiienergie AG, Tamins <span>Wettbewerb</span> </p>
 							<p>Neubau Areal Gubelfeld, Kempraten <span>Studie</span> </p>
 							<p>Instandsetzung Konvikt, Chur <span>Wettbewerb, 4. Preis</span> </p>
 							<p>Wohnüberbauung Fuchsenstrasse, St.Gallen <span>Wettbewerb</span> </p>
-							<p>Neubau und Erweiterung Müller-Friedberg-Strasse, St.Gallen <span>Machbarkeitsstudie</span> </p>
+							<div class="werkimg">
+									<p>Neubau und Erweiterung Müller-Friedberg-Strasse, St.Gallen <span>Machbarkeitsstudie</span> </p>
+									<img src="img/aol-test-02.jpg" alt="aol-test">
+							</div>
 							<p>Erweiterung Schillerstrasse, St.Gallen <span>Machbarkeitsstudie</span> </p>
 							<p>Neubau Schule Wildhaus <span>Wettbewerb, 3. Preis</span> </p>
 						</div>

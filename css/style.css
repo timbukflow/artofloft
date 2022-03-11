@@ -14,11 +14,14 @@
 * {
     box-sizing: border-box;
 }
+html {
+  background-color: #202020;
+}
 
 body {
-    margin:0px;
-    padding: 0px;
-    background-color: #202020;
+  margin:0px;
+  padding: 0px;
+  background-color: #202020;
 }
 
 ul, li {

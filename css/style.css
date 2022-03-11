@@ -84,13 +84,6 @@ button {
   letter-spacing: 1.4px;
 }
 
-button div,
-.accTitle {
-  transition: all 0.75s cubic-bezier(.2,0,.4,1);}
-
-button div:hover,
-.accTitle:hover {padding-left: 15px;}
-
 
 
 /*----------------------------------
@@ -118,7 +111,7 @@ header
   .naviconmove {
   transform: rotate(180deg);
   transform-origin: 50% 50%;
-  top: 50vh;
+  top: 35vh;
   }
 
 /*--navigation pfeil--*/
@@ -164,22 +157,14 @@ header
 
 /*--navigation navlist--*/
 .navlist {
-  width: calc(40% - 60px);
-  height: calc(100vh - 60px);
-  margin: 30px;
+  padding: 30px;
   position: fixed;
   z-index: 12;
-  display: flex;
-  flex-direction: column;
 }
   .navlist button {
     position: relative;
+    display: block;
     transition: all 0.75s cubic-bezier(.2,0,.4,1);
-    display: inherit;
-  }
-  .resize {
-    flex:auto;
-    display: inherit;
   }
   .activ {
     color: #5c5c5c;
@@ -191,6 +176,7 @@ header
   position: absolute;
   width: 60%;
   right: 0;
+  top: 35vh;
 }
 
 /*--navigation projekte--*/
@@ -209,7 +195,7 @@ header
 }
 .viewport {
   position: absolute;
-  bottom: 70px;
+  top: -150px;
 }
 .npcontainer img{
   width: 100%;
@@ -217,9 +203,7 @@ header
 }
 
 /*--navigation werkliste--*/
-#werkliste{
-  top: 50px;
-}
+
 .accTitle {
   margin-top: 0px;
   cursor: pointer;
@@ -253,9 +237,7 @@ header
 }
 
 /*--navigation kontakt--*/
-#kontakt{
-    top: 50px;
-}
+
 
 
 /*----------------------------------
@@ -365,6 +347,12 @@ responsive design
 @media only screen and (max-width: 1130px) {
 
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 400px) {
+  .logo { left: 20px; top: 20px; width: 150px; }
+  .navicon { right: 20px; }
+  .navcontent { top: 50vh; }
+  .viewport { top: -200px; }
+  .navlist { width: 100%; }
+  h1.title, button { font-size: 40px; }
 
 }

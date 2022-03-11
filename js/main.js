@@ -19,7 +19,7 @@ $(document).ready(function () {
 
     $('button').click(function() {
        var thisid = $(this).attr('data-toggle');
-       var otherbuttons = $(this).siblings();
+       var otherbuttons = $(this).siblings('button');
 
        $(window).scrollTop(0);
 
@@ -29,8 +29,8 @@ $(document).ready(function () {
        $('.navcontent').children().removeClass('inview');
        $(thisid).children('article:first-child').addClass('inview');
 
-       $(otherbuttons).removeClass('resize').addClass('activ');
-       $(this).addClass('resize').removeClass('activ');
+       $(otherbuttons).addClass('activ');
+       $(this).removeClass('activ');
    });
 
 

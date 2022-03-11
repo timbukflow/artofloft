@@ -65,6 +65,12 @@ $(document).ready(function () {
        $accordion.stop(true, false).slideToggle(400);
    });
 
+   // werkliste img //
+
+   $('.werkimg').hover(function() {
+      $(this).children('img').stop(true, false).fadeToggle('slow');
+  });
+
     // slideshow //
 
     $('#slideshow > div:gt(0)').hide();

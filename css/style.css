@@ -33,7 +33,7 @@ h1, h2, h3, p, a, button, figcaption {
   font-style: normal;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 1.25;
   letter-spacing: 0.75px;
   text-align: left;
   text-rendering: optimizeLegibility;
@@ -228,16 +228,28 @@ header
 }
 .accList {
   display: none;
-  padding: 5px;
-  margin: 20px 0;
+  margin: 5px 0;
 }
+.accList p {
+  padding: 5px 5px;
+  color: #5c5c5c;
+}
+.accList p span {
+  padding-left: 15px;
+}
+.werkimg p,
+.werkimg p span {
+  color: #ffffff;
+}
+
 .werkimg {
   cursor: pointer;
 }
 .werkimg img {
-  width: 50%;
-  margin: 10px 0 50px 100px;
-
+  margin-top: 65px;
+  position: absolute;
+  width: 75%;
+  display: none;
 }
 
 /*--navigation kontakt--*/

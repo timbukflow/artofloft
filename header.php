@@ -216,8 +216,6 @@
 							<p>Neubau Areal Gubelfeld, Kempraten <span>Studie</span> </p>
 						</div>
 					</article>
-
-	        </article>
 				</div>
 
 				<!--container-kontakt-->

@@ -14,9 +14,6 @@
 * {
     box-sizing: border-box;
 }
-html {
-  background-color: #202020;
-}
 
 body {
   margin:0px;
@@ -61,7 +58,7 @@ figcaption {
 }
 
 header h1, header h3, header p{
-  margin-left: 100px;
+  margin-left: 10px;
 }
 
 h1 span, p span {
@@ -180,13 +177,14 @@ header
   width: 60%;
   right: 0;
   top: 35vh;
+  overflow: hidden;
 }
 
 /*--navigation projekte--*/
 .npcontainer {
   position: relative;
   width: 100%;
-  right: 0;
+  right: -20%;
   opacity: 0.1;
   margin-bottom: 100px;
   display: inline-block;
@@ -194,11 +192,11 @@ header
 }
 .inview {
   opacity: 1;
-  right: 20%;
+  right: 0;
 }
 .viewport {
   position: absolute;
-  top: -150px;
+  bottom: 200px;
 }
 .npcontainer img{
   width: 100%;
@@ -216,6 +214,7 @@ header
 .accList {
   display: none;
   margin: 5px 0;
+  padding-right: 30px;
 }
 .accList p {
   padding: 5px 5px;
@@ -308,6 +307,7 @@ projekt site
 .projektallcontent {
   width: 60%;
   margin-left: 40%;
+  overflow: hidden;
 }
 
 .sticky {
@@ -353,9 +353,10 @@ responsive design
 @media only screen and (max-width: 400px) {
   .logo { left: 20px; top: 20px; width: 150px; }
   .navicon { right: 20px; }
-  .navcontent { top: 50vh; }
-  .viewport { top: -200px; }
-  .navlist { width: 100%; }
+  .navcontent { top: 50vh; width: 90%; }
+  .navlist { width: 100%; position: absolute; }
+  .npcontainer { margin-bottom: 75px; }
+  .viewport { bottom: 50px; }
   h1.title, button { font-size: 40px; }
 
 }

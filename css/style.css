@@ -52,7 +52,7 @@ header h1, header h3, header p{
   margin-left: 10px;
 }
 
-h1 span, p span {
+h1 span, p span, h2, h2 span {
   color: #5c5c5c;
   display: block;
 }
@@ -288,6 +288,9 @@ projekt site
   margin: 100px 0px 125px 0px;
   padding-right: 75px;
 }
+.description h2 {
+  padding-top: 15px;
+}
 
 .projektcontainer {
   display: inline-block;
@@ -302,16 +305,16 @@ projekt site
   float: left;
 }
 .projektimg.high {
-  margin: 100px;
+  margin: 100px 100px 0px;
   width: calc(33% - 200px);
 }
 .projektimg.high.middle {
-  margin: 100px 0px;
+  margin: 100px 0px 0px;
   width: 33%;
 }
 .projektimg.fullmiddle {
-  margin: 100px 10%;
-  width: 80%;
+  margin: 100px 100px;
+  width: calc(100% - 200px);
 }
 
 

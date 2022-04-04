@@ -19,7 +19,8 @@
     <!--container-projekt-->
     <section class="projektcontainer">
       <div class="description">
-        <h1>Überbauung "Shield & Shelter" (2009) | Amriswil TG</span><span>Neubau von Büro- und Geschäftshaus Promega AG</span><span>Projektstatus:  Realisiert </span></h1>
+        <h1>Überbauung "Shield & Shelter" (2009) | Amriswil TG<span>Neubau von Büro- und Geschäftshaus Promega AG</span></h1>
+        <h2>Kompetenz: Architektur, Realisation, Projektmanagement<span>Status: Realisiert</span></h2>
       </div>
       <figure class="projektstartimg">
         <img src="img/art-of-loft-projekt-ueberbauung-shield-shelter-amriswil-thurgau-01.jpg" alt="art-of-loft-projekt-ueberbauung-shield-shelter-amriswil-thurgau-01">

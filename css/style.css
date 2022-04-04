@@ -193,6 +193,11 @@ header
 .npcontainer img{
   width: 100%;
   margin-bottom: 20px;
+  filter: grayscale(100%);
+  transition: all 1s cubic-bezier(.2,0,.4,1);
+}
+.npcontainer img:hover{
+  filter: grayscale(0%);
 }
 
 /*--navigation werkliste--*/

@@ -1,9 +1,9 @@
 <div class="navcontent shufflenav" id="projekte">
   <article id="object-p01" class="npcontainer">
-    <a href="projekt-standort-vorlage">
+    <a href="projekt-ueberbauung-shield-shelter-amriswil-thurgau">
       <div id="p01" class="viewport"></div>
-      <img src="img/aol-test.jpg" alt="aol-test">
-      <h1>Projektbeschreibung <span>Neubau, Realisation 2020</span></h1>
+      <img src="img/art-of-loft-projekt-ueberbauung-shield-shelter-amriswil-thurgau-01.jpg" alt="art-of-loft-projekt-ueberbauung-shield-shelter-amriswil-thurgau-01">
+      <h1>Überbauung "Shield & Shelter" (2009) | Amriswil TG <span>Neubau von Büro- und Geschäftshaus Promega AG</span><span>Projektstatus:  Realisiert</span></h1>
     </a>
   </article>
   <article id="object-p02" class="npcontainer">

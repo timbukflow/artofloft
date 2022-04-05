@@ -20,7 +20,7 @@
     <section class="projektcontainer">
       <div class="description">
         <h1>Überbauung "Shield & Shelter" (2009) | Amriswil TG<span>Neubau von Büro- und Geschäftshaus Promega AG</span></h1>
-        <h2>Kompetenz: Architektur, Realisation, Projektmanagement<span>Status: Realisiert</span></h2>
+        <h2>Kompetenzen: Studie, Baueingabe, Ausführungsplanung, Projektmanagement, Bauleitung<span>Status: Realisiert </span></h2>
       </div>
       <figure class="projektstartimg">
         <img src="img/art-of-loft-projekt-ueberbauung-shield-shelter-amriswil-thurgau-01.jpg" alt="art-of-loft-projekt-ueberbauung-shield-shelter-amriswil-thurgau-01">
@@ -38,15 +38,12 @@
         <img src="img/art-of-loft-projekt-ueberbauung-shield-shelter-amriswil-thurgau-05.jpg" alt="art-of-loft-projekt-ueberbauung-shield-shelter-amriswil-thurgau-05">
       </figure>
     </section>
-
-
+    <!--all-projekt-->
     <section class="projektallcontainer">
       <h1 class="title sticky"> <span>Alle</span> Projekte</h1>
       <?php include 'projekt-overall.php'; ?>
-      <style> #object-Ap02 { display: none; } </style>
-
+      <style> #object-Ap01 { display: none; } </style>
     </section>
-
   </div>
 
 

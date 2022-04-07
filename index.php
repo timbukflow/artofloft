@@ -18,19 +18,19 @@
       <a href="index"><img src="img/artofloft-logo.svg" alt="Art of Loft Logo" width="220px" height="auto"></a>
     </div>
     <div id="slideshow">
-      <div style="background-image: url('img/artofloft-test.jpg');">
-        <a class="gotoproject" href="projekt-standort-vorlage">
-          <h1 class="title" >Projekt 01</h1>
+      <div style="background-image: url('img/art-of-loft-projekt-ueberbauung-shield-shelter-amriswil-thurgau-01.jpg');">
+        <a class="gotoproject" href="projekt-ueberbauung-shield-shelter-amriswil-thurgau">
+          <h1 class="title" >Überbauung "Shield & Shelter"</h1>
         </a>
       </div>
-      <div style="background-image: url('img/artofloft-test-02.jpg');">
-        <a class="gotoproject" href="projekt-standort-vorlage">
-          <h1 class="title" >Projekt 02</h1>
+      <div style="background-image: url('img/art-of-loft-projekt-ueberbauung-hexagon-ruschein-graubuenden-01.jpg');">
+        <a class="gotoproject" href="projekt-ueberbauung-hexagon-ruschein-graubuenden">
+          <h1 class="title" >Überbauung "Hexagon"</h1>
         </a>
       </div>
-      <div style="background-image: url('img/artofloft-test-03.jpg');">
-        <a class="gotoproject" href="projekt-standort-vorlage">
-          <h1 class="title" >Projekt 03</h1>
+      <div style="background-image: url('img/art-of-loft-projekt-sanierung-aufstockung-tba-amriswil-thurgau-01.jpg');">
+        <a class="gotoproject" href="projekt-sanierung-aufstockung-tba-amriswil-thurgau">
+          <h1 class="title" >Sanierung und Aufstockung TBA</h1>
         </a>
       </div>
     </div>

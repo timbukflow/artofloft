@@ -42,10 +42,31 @@
     </a>
   </article>
   <article id="object-p07" class="npcontainer">
-    <a href="projekt-standort-vorlage">
+    <a href="projekt-ueberbauung-hexagon-ruschein-graubuenden">
       <div id="p07" class="viewport"></div>
-      <img src="img/aol-test.jpg" alt="aol-test">
-      <h1>Projektbeschreibung <span>Neubau, Realisation 2026</span></h1>
+      <img src="img/art-of-loft-projekt-ueberbauung-hexagon-ruschein-graubuenden-01.jpg" alt="art-of-loft-projekt-ueberbauung-hexagon-ruschein-graubuenden-01">
+      <h1>Überbauung "Hexagon" (2020) | Ruschein GR <span>Neubau von 2 Mehrfamilienhäuser mit 5 Erst- und 5 Zweitwohnungen</span></h1>
+    </a>
+  </article>
+  <article id="object-p08" class="npcontainer">
+    <a href="projekt-wohnhaus-geschaeftshaus-polygon-bottighofen-thurgau">
+      <div id="p08" class="viewport"></div>
+      <img src="img/art-of-loft-projekt-wohnhaus-geschaeftshaus-polygon-bottighofen-thurgau-01.jpg" alt="art-of-loft-projekt-wohnhaus-geschaeftshaus-polygon-bottighofen-thurgau-01">
+      <h1>Wohn-und Gewerbehaus "Polygon" (2016) | Bottighofen TG <span>Neubau von Eigentumswohnungen-, Gewerbe- und Ausstellflächen</span></h1>
+    </a>
+  </article>
+  <article id="object-p09" class="npcontainer">
+    <a href="projekt-ueberbauung-8-oeserigi-weissbad-schwende-appenzell-innerrhoden">
+      <div id="p09" class="viewport"></div>
+      <img src="img/art-of-loft-projekt-ueberbauung-8-oeserigi-weissbad-schwende-appenzell-innerrhoden-01.jpg" alt="art-of-loft-projekt-ueberbauung-8-oeserigi-weissbad-schwende-appenzell-innerrhoden">
+      <h1>Überbauung "8 Öserigi" (2021) | Weissbad-Schwende AI<span>Neubau von 8 Mehrfamilienhäuser mit 47 Eigentumswohnungen</span></h1>
+    </a>
+  </article>
+  <article id="object-p010" class="npcontainer">
+    <a href="projekt-mehrfamilienhaus-arrivar-segnas-disentis-graubuenden">
+      <div id="p010" class="viewport"></div>
+      <img src="img/art-of-loft-projekt-mehrfamilienhaus-arrivar-segnas-disentis-graubuenden-01.jpg" alt="art-of-loft-projekt-mehrfamilienhaus-arrivar-segnas-disentis-graubuenden-01">
+      <h1>MFH "Arrivar" (2021) | Segnas-Disentis GR<span>Neubau Chalet mit 4 Eigentumswohnungen </span></h1>
     </a>
   </article>
 </div>

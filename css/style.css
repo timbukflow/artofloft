@@ -137,14 +137,11 @@ header
 
 /*--navigation--*/
 .navcontainer {
-  position: relative;
-  top: -100vh;
+  position: fixed;
+  top: 0;
   z-index: 9;
-  transition: all 0.75s cubic-bezier(.2,0,.4,1);
+  display: none;
 }
-  .navactiv {
-    top: 0;
-  }
   .navbackground {
     position: absolute;
     background-color: #202020;

@@ -7,7 +7,7 @@ $(document).ready(function () {
         $('button').removeClass('activ resize');
 
         setTimeout(function() {
-          $('.navcontainer').toggleClass('navactiv');
+          $('.navcontainer').fadeToggle(750);
           $('.maincontainer').fadeToggle(750);
           //arrowmover
           $('.navicon').toggleClass('naviconmove');

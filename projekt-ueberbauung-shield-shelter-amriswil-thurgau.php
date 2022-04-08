@@ -44,10 +44,9 @@
       <?php include 'projekt-overall.php'; ?>
       <style> #object-Ap01 { display: none; } </style>
     </section>
+    <?php include 'footer.php'; ?>
   </div>
 
-
-  <?php include 'footer.php'; ?>
   <?php include 'script.php'; ?>
 </body>
 </html>

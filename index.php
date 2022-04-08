@@ -39,9 +39,10 @@
         </a>
       </div>
     </div>
+    <!--container-background-->
+    <div class="background"></div>
   </div>
-  <!--container-background-->
-  <div class="background"></div>
+
 
   <?php include 'script.php'; ?>
 </body>

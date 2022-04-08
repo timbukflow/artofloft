@@ -146,7 +146,7 @@ header
     top: 0;
   }
   .navbackground {
-    position: fixed;
+    position: absolute;
     /*background-color: #202020;*/
     background-color: red;
     height: 100vh;

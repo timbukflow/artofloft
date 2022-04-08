@@ -20,7 +20,7 @@
     <section class="projektcontainer">
       <div class="description">
         <h1>Überbauung "Hexagon" (2020) | Ruschein GR <span>Neubau von 2 Mehrfamilienhäuser mit 5 Erst- und 5 Zweitwohnungen</span></h1>
-        <h2>Studie, Baueingabe, Ausführungsplanung, Projektmanagement, Verkauf<span>Status: Realisiert </span></h2>
+        <h2>Kompetenzen: Studie, Baueingabe, Ausführungsplanung, Projektmanagement, Verkauf<span>Status: Realisiert </span></h2>
       </div>
       <figure class="projektstartimg">
         <img src="img/art-of-loft-projekt-ueberbauung-hexagon-ruschein-graubuenden-01.jpg" alt="art-of-loft-projekt-ueberbauung-hexagon-ruschein-graubuenden-01">

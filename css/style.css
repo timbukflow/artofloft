@@ -298,8 +298,11 @@ projekt site
   margin: 100px 0px 125px 0px;
   padding-right: 100px;
 }
-.description h2 {
+.description h2  {
   padding-top: 15px;
+}
+.description .link {
+  color: #B3A280;
 }
 
 .projektcontainer {
@@ -404,7 +407,7 @@ responsive design
   .logo { left: 20px; top: 20px; width: 150px; }
   .navicon { right: 20px; }
   button:hover {opacity: 1;}
-  
+
   /*projekte*/
   .description { width: 80%; margin: 170px 0px 30px 0px; padding-right: 30px;}
   .projektstartimg { margin: 20px 0;}

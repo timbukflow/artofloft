@@ -13,7 +13,7 @@
 <meta property="og:title" content="Art of Loft" />
 <meta property="og:site_name" content="Art of Loft">
 <meta property="og:type" content="Website">
-<meta property="og:description" content="Die Art of Loft AG St. Gallen zählt seit vielen Jahren zu den Akteuren der Architekturszene der Ostschweiz">
+<meta property="og:description" content="Art of Loft AG - Architektur und Projektmanagement. Die andere Sicht der nachhaltigen Architektur unter Einbezug von Funktion, Reduktion und Ästhetik.">
 <meta property="og:url" content="https://artofloft.ch/">
 <meta property="og:image" content="https://artofloft.ch/img/share.jpg">
 <meta property="og:image:secure_url" content="https://artofloft.ch/img/share.jpg">

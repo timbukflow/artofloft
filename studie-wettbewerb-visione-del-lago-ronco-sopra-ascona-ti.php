@@ -31,16 +31,10 @@
       <figure class="projektimg fullmiddle">
         <img src="img/art-of-loft-studie-wettbewerb-visione-del-lago-ronco-sopra-ascona-ti-03.jpg" alt="art-of-loft-studie-wettbewerb-visione-del-lago-ronco-sopra-ascona-ti-03">
       </figure>
-      <figure class="projektimg hightwo">
-        <img src="img/art-of-loft-studie-wettbewerb-visione-del-lago-ronco-sopra-ascona-ti-04.jpg" alt="art-of-loft-studie-wettbewerb-visione-del-lago-ronco-sopra-ascona-ti-04">
-      </figure>
-      <figure class="projektimg hightwo marginR">
-        <img src="img/art-of-loft-studie-wettbewerb-visione-del-lago-ronco-sopra-ascona-ti-05.jpg" alt="art-of-loft-studie-wettbewerb-visione-del-lago-ronco-sopra-ascona-ti-05">
-      </figure>
     </section>
     <!--all-projekt-->
     <section class="projektallcontainer">
-      <h1 class="title sticky"> <span>Alle</span> Studien &amp Wettbewerbe</h1>
+      <h1 class="title sticky"> <span>Alle</span> Studien &amp <br> Wettbewerbe</h1>
       <?php include 'studie-wettbewerb-overall.php'; ?>
       <style> #object-Aw01 { display: none; } </style>
     </section>

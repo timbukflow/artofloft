@@ -26,15 +26,15 @@
         <img src="img/art-of-loft-studie-wettbewerb-hotel-bellaval-laax-gr-01.jpg" alt="art-of-loft-studie-wettbewerb-hotel-bellaval-laax-gr-01">
       </figure>
       <figure class="projektimg fullmiddle">
-        <img src="img/art-of-loft-studie-wettbewerb-hotel-bellaval-laax-gr-01.jpg" alt="art-of-loft-studie-wettbewerb-hotel-bellaval-laax-gr-01">
+        <img src="img/art-of-loft-studie-wettbewerb-hotel-bellaval-laax-gr-02.jpg" alt="art-of-loft-studie-wettbewerb-hotel-bellaval-laax-gr-02">
       </figure>
       <figure class="projektimg fullmiddle">
-        <img src="img/art-of-loft-studie-wettbewerb-hotel-bellaval-laax-gr-01.jpg" alt="art-of-loft-studie-wettbewerb-hotel-bellaval-laax-gr-01">
+        <img src="img/art-of-loft-studie-wettbewerb-hotel-bellaval-laax-gr-03.jpg" alt="art-of-loft-studie-wettbewerb-hotel-bellaval-laax-gr-03">
       </figure>
     </section>
     <!--all-projekt-->
     <section class="projektallcontainer">
-      <h1 class="title sticky"> <span>Alle</span> Studien &amp Wettbewerbe</h1>
+      <h1 class="title sticky"> <span>Alle</span> Studien &amp <br> Wettbewerbe</h1>
       <?php include 'studie-wettbewerb-overall.php'; ?>
       <style> #object-Aw03 { display: none; } </style>
     </section>

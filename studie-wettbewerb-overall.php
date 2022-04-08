@@ -55,11 +55,4 @@
       <h1>Überbauung "4 Peaks" Residence (2019) | Sedrun GR<span>Neubau von bewirtschafteten Wohnungen mit Wellness- und Gastrobereich</span></h1>
     </a>
   </article>
-  <article id="object-Aw09" class="npcontainer">
-    <a href="studie-wettbewerb-ueberbauung-move-berlingen-tg">
-      <div id="Aw09" class="viewport"></div>
-      <img src="img/art-of-loft-studie-wettbewerb-ueberbauung-move-berlingen-tg-01.jpg" alt="aart-of-loft-studie-wettbewerb-ueberbauung-move-berlingen-tg-01">
-      <h1>Überbauung "Move" (2009) | Berlingen TG<span>Neubau von 4 Terrassenhäuser mit Seesicht</span></h1>
-    </a>
-  </article>
 </div>

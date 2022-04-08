@@ -20,7 +20,7 @@
     <section class="projektcontainer">
       <div class="description">
         <h1>Quartierplan Tan "Lake View" (2013) | Wienacht-Tobel AR<span>Neubau von 2 Mehrfamilienhäuser mit 20 Miet,- und 12 Eigentumswohnungen</span></h1>
-        <h2>Kompetenzen: Quartierplan mit Baueingabe (bewilligt)<span>Status: Realisiert</span></h2>
+        <h2>Kompetenzen: Projektentwicklung, Quartierplan mit Baueingabe (bewilligt)</h2>
       </div>
       <figure class="projektstartimg">
         <img src="img/art-of-loft-studie-wettbewerb-quartierplan-tan-lake-view-wienacht-tobel-ar-01.jpg" alt="art-of-loft-studie-wettbewerb-quartierplan-tan-lake-view-wienacht-tobel-ar-01">
@@ -31,7 +31,7 @@
     </section>
     <!--all-projekt-->
     <section class="projektallcontainer">
-      <h1 class="title sticky"> <span>Alle</span> Studien &amp Wettbewerbe</h1>
+      <h1 class="title sticky"> <span>Alle</span> Studien &amp <br> Wettbewerbe</h1>
       <?php include 'studie-wettbewerb-overall.php'; ?>
       <style> #object-Aw04 { display: none; } </style>
     </section>

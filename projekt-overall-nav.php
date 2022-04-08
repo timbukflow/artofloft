@@ -69,4 +69,11 @@
       <h1>MFH "Arrivar" (2021) | Segnas-Disentis GR<span>Neubau Chalet mit 4 Eigentumswohnungen </span></h1>
     </a>
   </article>
+  <article id="object-p011" class="npcontainer">
+    <a href="projekt-einfamilienhaus-quer-cross-zihlschlacht-thurgau">
+      <div id="p011" class="viewport"></div>
+      <img src="img/art-of-loft-projekt-einfamilienhaus-quer-cross-zihlschlacht-thurgau-01.jpg" alt="art-of-loft-projekt-einfamilienhaus-quer-cross-zihlschlacht-thurgau-01">
+      <h1>EFH Fam. Huber "Quer-Cross" (2015) | Zihlschlacht TG<span>Neubau Einfamilienhaus mit Flachdach  </span></h1>
+    </a>
+  </article>
 </div>

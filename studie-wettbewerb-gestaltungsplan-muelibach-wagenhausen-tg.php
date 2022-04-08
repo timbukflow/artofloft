@@ -20,7 +20,7 @@
     <section class="projektcontainer">
       <div class="description">
         <h1>Gestaltungsplan "Mülibach" (2012) | Wagenhausen TG<span>Neubau von 4 Mehrfamilienhäuser mit 20 Miet-, und 14 Eigentumswohnungen</span></h1>
-        <h2>Kompetenzen: Gestaltungsplan mit Baueingabe (bewilligt)<span>Status: Realisiert</span></h2>
+        <h2>Kompetenzen: Projektentwicklung, Gestaltungsplan mit Baueingabe (bewilligt)</h2>
       </div>
       <figure class="projektstartimg">
         <img src="img/art-of-loft-studie-wettbewerb-gestaltungsplan-muelibach-wagenhausen-tg-01.jpg" alt="art-of-loft-studie-wettbewerb-gestaltungsplan-muelibach-wagenhausen-tg-01">
@@ -43,7 +43,7 @@
     </section>
     <!--all-projekt-->
     <section class="projektallcontainer">
-      <h1 class="title sticky"> <span>Alle</span> Studien &amp Wettbewerbe</h1>
+      <h1 class="title sticky"> <span>Alle</span> Studien &amp <br> Wettbewerbe</h1>
       <?php include 'studie-wettbewerb-overall.php'; ?>
       <style> #object-Aw02 { display: none; } </style>
     </section>

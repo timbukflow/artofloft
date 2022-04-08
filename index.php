@@ -41,7 +41,7 @@
     </div>
   </div>
   <!--container-background-->
-  <div class="navbackground"></div>
+  <div class="background"></div>
 
   <?php include 'script.php'; ?>
 </body>

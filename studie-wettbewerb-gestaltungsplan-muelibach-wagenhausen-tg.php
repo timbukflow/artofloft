@@ -47,9 +47,11 @@
       <?php include 'studie-wettbewerb-overall.php'; ?>
       <style> #object-Aw02 { display: none; } </style>
     </section>
+    <?php include 'footer.php'; ?>
+    <!--container-background-->
+    <div class="background"></div>
   </div>
 
-  <?php include 'footer.php'; ?>
   <?php include 'script.php'; ?>
 </body>
 </html>

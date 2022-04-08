@@ -46,7 +46,7 @@
     </section>
     <?php include 'footer.php'; ?>
     <!--container-background-->
-    <div class="navbackground"></div>
+    <div class="background"></div>
   </div>
 
   <?php include 'script.php'; ?>

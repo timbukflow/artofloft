@@ -45,10 +45,12 @@
       <?php include 'projekt-overall.php'; ?>
       <style> #object-Ap03 { display: none; } </style>
     </section>
+    <?php include 'footer.php'; ?>
+    <!--container-background-->
+    <div class="background"></div>
   </div>
 
 
-  <?php include 'footer.php'; ?>
   <?php include 'script.php'; ?>
 </body>
 </html>

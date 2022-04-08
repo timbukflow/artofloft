@@ -9,6 +9,7 @@ $(document).ready(function () {
         setTimeout(function() {
           $('.navcontainer').fadeToggle(750);
           $('.maincontainer').fadeToggle(750);
+          $('.navcontainer').css({ "position": "fixed" });
           //arrowmover
           $('.navicon').toggleClass('naviconmove');
     }, 150);
@@ -22,6 +23,7 @@ $(document).ready(function () {
        var otherbuttons = $(this).siblings('button');
 
        $(window).scrollTop(0);
+       $('.navcontainer').css({ "position": "relative" });
 
        $('.navcontent').hide();
        $(thisid).fadeIn(700);

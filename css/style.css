@@ -142,7 +142,7 @@ header
   z-index: 9;
   display: none;
 }
-  .navbackground {
+  .background {
     position: absolute;
     top: 0;
     z-index: 1;

@@ -379,7 +379,7 @@ responsive design
   .navlist { width: 100%; position: absolute; }
   .npcontainer { margin-bottom: 75px; }
   .viewport { bottom: 50px; }
-  h1,h2, h3, p { font-size: 15px; }
+  h1,h2, h3, p, a { font-size: 15px; }
   h1.title, button { font-size: 38px; }
   #slideshow div h1 { margin: 30px 30px; right: 0; }
   header h1 { padding-right: 30px; }

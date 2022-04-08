@@ -51,9 +51,9 @@
       <style> #object-Ap06 { display: none; } </style>
     </section>
     <?php include 'footer.php'; ?>
-    <!--container-background-->
-    <div class="background"></div>
   </div>
+  <!--container-background-->
+  <div class="background"></div>
 
   <?php include 'script.php'; ?>
 </body>

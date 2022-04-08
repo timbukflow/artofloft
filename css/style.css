@@ -67,6 +67,10 @@ button {
   padding: 0;
 }
 
+button:hover {
+  opacity: 0.5;
+}
+
 h1.title,
 button {
   font-size: 50px;
@@ -97,6 +101,9 @@ header
   cursor: pointer;
   z-index: 10;
   transition: all 0.75s cubic-bezier(.2,0,.4,1);
+}
+.navicon:hover {
+  opacity: 0.5;
 }
   .naviconmove {
   transform: rotate(180deg);
@@ -256,8 +263,9 @@ slideshow
 #slideshow div h1 {
   position: absolute;
   bottom: 0;
-  right: 50px;
-  margin-bottom: 30px;
+  text-align: right;
+  margin: 30px 50px;
+  right: 0;
 }
 
 .gotoproject {
@@ -382,6 +390,8 @@ responsive design
   .navlist { width: 100%; position: absolute; }
   .npcontainer { margin-bottom: 75px; }
   .viewport { bottom: 50px; }
-  h1.title, button { font-size: 40px; }
-
+  h1 { font-size: 16px; }
+  h1.title, button { font-size: 38px; }
+  #slideshow div h1 { margin: 30px 30px; right: 0; }
+  header h1 {padding-right: 30px;}
 }

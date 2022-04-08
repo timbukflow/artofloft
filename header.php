@@ -9,7 +9,7 @@
 		<div class="navcontainer">
 			<div class="navlist">
 					<button data-toggle="#projekte" type="button" name="projekte"><div>Projekte</div></button>
-					<button data-toggle="#wettbewerbe" type="button" name="wettbewerbe"><div>Wettbewerbe</div></button>
+					<button data-toggle="#wettbewerbe" type="button" name="wettbewerbe"><div>Studien &amp <br> Wettbewerbe</div></button>
 					<button data-toggle="#werkliste" type="button" name="werkliste"><div>Werkliste</div></button>
 					<button data-toggle="#kontakt" type="button" name="kontakt"><div>Kontakt</div></button>
 			</div>

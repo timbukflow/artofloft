@@ -144,7 +144,8 @@ header
 }
   .navbackground {
     position: absolute;
-    bottom: 0;
+    top: 0;
+    z-index: 1;
     background-color: rebeccapurple;
     height: 100vh;
     width: 100%;
@@ -279,6 +280,7 @@ projekt site
 .maincontainer {
   width: 100%;
   position: relative;
+  z-index: 2;
 }
 
 .maincontainer img {

@@ -20,7 +20,6 @@
 				<?php include 'studie-wettbewerb-overall-nav.php'; ?>
 				<!--container-werkliste-->
 				<?php include 'werkliste-overall-nav.php'; ?>
-
 				<!--container-kontakt-->
 				<div class="navcontent" id="kontakt">
 					<article class="npcontainer kontakt">
@@ -44,10 +43,7 @@
 		          <a href="mailto:t.von.allmen@art-of-loft.ch" target="_top"><p>Mail</p></a>
 					</article>
 				</div>
-
 			</div>
-			<!--container-background-->
-			<div class="navbackground"></div>
 		</div>
 	</nav>
 

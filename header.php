@@ -228,7 +228,7 @@
 				</div>
 
 				<!--container-background-->
-				<div class="navbackground"></div>
+				<!--<div class="navbackground"></div>-->
 			</div>
 
 		</div>

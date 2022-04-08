@@ -396,7 +396,7 @@ responsive design
   h1.title, button { font-size: 38px; }
   #slideshow div h1 { margin: 30px 30px; right: 0; }
   header h1 { padding-right: 30px; }
-  h1.aoldescription {margin: 50px; font-size: 25px;}
+  h1.aoldescription {margin: 30px; font-size: 25px;}
   /*projekte*/
   .description { width: 70%; margin: 170px 0px 30px 0px; padding-right: 30px;}
   .projektstartimg { margin: 30px 0;}

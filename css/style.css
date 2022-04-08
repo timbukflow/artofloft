@@ -397,9 +397,12 @@ responsive design
 @media only screen and (max-width: 500px) {
   .logo { left: 20px; top: 20px; width: 150px; }
   .navicon { right: 20px; }
+  button:hover {opacity: 1;}
   /*projekte*/
   .description { width: 80%; margin: 170px 0px 30px 0px; padding-right: 30px;}
   .projektstartimg { margin: 20px 0;}
   .projektstartimg img { width: 200%;}
   .projektimg.high, .projektimg.high.middle, .projektimg.fullmiddle, .projektimg.hightwo, .projektimg.hightwo.marginR { margin: 20px 10%; width: 80%;}
+
+
 }

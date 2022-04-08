@@ -13,7 +13,7 @@
 <body>
   <?php include 'header.php'; ?>
 
-  <div class="maincontainer">
+  <div class="maincontainer respfix">
     <div class="logo">
       <a href="index"><img src="img/artofloft-logo.svg" alt="Art of Loft Logo" width="220px" height="auto"></a>
     </div>

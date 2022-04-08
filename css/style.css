@@ -398,6 +398,7 @@ responsive design
   .logo { left: 20px; top: 20px; width: 150px; }
   .navicon { right: 20px; }
   button:hover {opacity: 1;}
+  .navbackground { height: 150vh; background-color: yellow;}
   /*projekte*/
   .description { width: 80%; margin: 170px 0px 30px 0px; padding-right: 30px;}
   .projektstartimg { margin: 20px 0;}

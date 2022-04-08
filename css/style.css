@@ -222,9 +222,7 @@ header
   padding: 5px 5px;
   color: #828282;
 }
-.accList p span {
-  padding-left: 15px;
-}
+
 .werkimg p,
 .werkimg p span {
   color: #ffffff;
@@ -305,7 +303,10 @@ projekt site
 }
 
 .projektstartimg {
-margin: 50px 0;
+  margin: 50px 0;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
 }
 .projektimg {
   float: left;
@@ -373,25 +374,32 @@ footer {
 responsive design
 -----------------------------------*/
 
-
-@media only screen and (max-width: 1400px) {
-
-}
-@media only screen and (max-width: 1270px) {
-
-}
-@media only screen and (max-width: 1130px) {
-
-}
-@media only screen and (max-width: 400px) {
-  .logo { left: 20px; top: 20px; width: 150px; }
-  .navicon { right: 20px; }
+@media only screen and (max-width: 820px) {
   .navcontent { top: 50vh; width: 90%; }
   .navlist { width: 100%; position: absolute; }
   .npcontainer { margin-bottom: 75px; }
   .viewport { bottom: 50px; }
-  h1 { font-size: 16px; }
+  h1,h2, h3, p { font-size: 15px; }
   h1.title, button { font-size: 38px; }
   #slideshow div h1 { margin: 30px 30px; right: 0; }
-  header h1 {padding-right: 30px;}
+  header h1 { padding-right: 30px; }
+  /*projekte*/
+  .description { width: 70%; margin: 170px 0px 30px 0px; padding-right: 30px;}
+  .projektstartimg { margin: 30px 0;}
+  .projektstartimg img { width: 120%;}
+  .projektimg.high, .projektimg.high.middle, .projektimg.fullmiddle, .projektimg.hightwo, .projektimg.hightwo.marginR { margin: 30px 10%; width: 80%;}
+  /*projekte-all*/
+  .projektallcontent { width: 90%; margin-left: 10%; margin-top: 50px;}
+  .projektallcontent h1 { padding-right: 30px;}
+  .sticky { position: relative; }
+}
+
+@media only screen and (max-width: 500px) {
+  .logo { left: 20px; top: 20px; width: 150px; }
+  .navicon { right: 20px; }
+  /*projekte*/
+  .description { width: 80%; margin: 170px 0px 30px 0px; padding-right: 30px;}
+  .projektstartimg { margin: 20px 0;}
+  .projektstartimg img { width: 200%;}
+  .projektimg.high, .projektimg.high.middle, .projektimg.fullmiddle, .projektimg.hightwo, .projektimg.hightwo.marginR { margin: 20px 10%; width: 80%;}
 }

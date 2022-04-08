@@ -1,4 +1,4 @@
-<div class="navcontent shufflenav" id="projekte">
+<div class="navcontent" id="projekte">
   <article id="object-p01" class="npcontainer">
     <a href="projekt-ueberbauung-shield-shelter-amriswil-thurgau">
       <div id="p01" class="viewport"></div>

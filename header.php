@@ -15,24 +15,9 @@
 			</div>
 
 				<!--container-projekte-->
-					<?php include 'projekt-overall-nav.php'; ?>
-
+				<?php include 'projekt-overall-nav.php'; ?>
 				<!--container-wettbewerbe-->
-				<div class="navcontent" id="wettbewerbe">
-					<article id="object-w01" class="npcontainer">
-						<a href="#">
-							<div id="w01" class="viewport"></div>
-							<img src="img/aol-test-02.jpg" alt="aol-test">
-							<h1>Projektbeschreibung <span>Neubau, Realisation 2020</span></h1>
-						</a>
-					</article>
-					<article id="object-w02" class="npcontainer">
-						<div id="w02" class="viewport"></div>
-						<img src="img/aol-test-02.jpg" alt="aol-test">
-						<h1>Projektbeschreibung <span>Neubau, Realisation 2020</span></h1>
-					</article>
-				</div>
-
+				<?php include 'studie-wettbewerb-overall-nav.php'; ?>
 				<!--container-werkliste-->
 				<div class="navcontent" id="werkliste">
 					<article class="npcontainer">

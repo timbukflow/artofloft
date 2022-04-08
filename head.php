@@ -13,7 +13,7 @@
 <meta property="og:title" content="Art of Loft" />
 <meta property="og:site_name" content="Art of Loft">
 <meta property="og:type" content="Website">
-<meta property="og:description" content="........">
+<meta property="og:description" content="Die Art of Loft AG St. Gallen zählt seit vielen Jahren zu den Akteuren der Architekturszene der Ostschweiz">
 <meta property="og:url" content="https://artofloft.ch/">
 <meta property="og:image" content="https://artofloft.ch/img/share.jpg">
 <meta property="og:image:secure_url" content="https://artofloft.ch/img/share.jpg">
@@ -23,7 +23,7 @@
 <meta property="og:image:alt" content="Art of Loft">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Art of Loft">
-<meta name="twitter:description" content=".......">
+<meta name="twitter:description" content="Die Art of Loft AG St. Gallen zählt seit vielen Jahren zu den Akteuren der Architekturszene der Ostschweiz">
 <meta name="twitter:image" content="https://artofloft.ch/img/share.jpg">
 <meta name="twitter:image:alt" content="Art of Loft">
 <meta name="apple-mobile-web-app-capable" content="yes">

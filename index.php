@@ -39,8 +39,7 @@
         </a>
       </div>
     </div>
-    <style> footer { display: none; } </style>
-    <?php include 'footer.php'; ?>
+    
     <!--container-background-->
     <div class="background"></div>
   </div>

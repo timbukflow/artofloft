@@ -37,7 +37,7 @@
     </section>
     <!--all-projekt-->
     <section class="projektallcontainer">
-      <h1 class="title sticky"> <span>Alle</span> Projekte</h1>
+      <h1 class="title sticky"> <span>Weitere</span> Projekte</h1>
       <?php include 'projekt-overall.php'; ?>
       <style> #object-Ap05 { display: none; } </style>
     </section>

@@ -34,7 +34,7 @@
     </section>
     <!--all-projekt-->
     <section class="projektallcontainer">
-      <h1 class="title sticky"> <span>Alle</span> Studien &amp <br> Wettbewerbe</h1>
+      <h1 class="title sticky"> <span>Weitere</span> Studien &amp <br> Wettbewerbe</h1>
       <?php include 'studie-wettbewerb-overall.php'; ?>
       <style> #object-Aw08 { display: none; } </style>
     </section>

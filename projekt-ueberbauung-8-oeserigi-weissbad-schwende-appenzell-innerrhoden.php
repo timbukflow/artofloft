@@ -21,7 +21,7 @@
       <div class="description">
         <h1>Überbauung "8 Öserigi" (2021) | Weissbad-Schwende AI<span>Neubau von 8 Mehrfamilienhäuser mit 47 Eigentumswohnungen</span></h1>
         <h2>Kompetenzen: Studie, Baueingabe, Ausführungsplanung, Projektmanagement, Verkauf<span>Status: Baubeginn ab Frühjahr 2022 </span></h2>
-        <h2><a class="link" href="https://www.8oeserigi.ch/">&rarr; Projektwebseite 8 Öserigi</a></h2> 
+        <h2><a class="link" href="https://www.8oeserigi.ch/">&rarr; Projektwebseite 8 Öserigi</a></h2>
       </div>
       <figure class="projektstartimg">
         <img src="img/art-of-loft-projekt-ueberbauung-8-oeserigi-weissbad-schwende-appenzell-innerrhoden-01.jpg" alt="art-of-loft-projekt-ueberbauung-8-oeserigi-weissbad-schwende-appenzell-innerrhoden-01">
@@ -44,7 +44,7 @@
     </section>
     <!--all-projekt-->
     <section class="projektallcontainer">
-      <h1 class="title sticky"> <span>Alle</span> Projekte</h1>
+      <h1 class="title sticky"> <span>Weitere</span> Projekte</h1>
       <?php include 'projekt-overall.php'; ?>
       <style> #object-Ap09 { display: none; } </style>
     </section>

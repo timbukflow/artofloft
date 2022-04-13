@@ -21,12 +21,18 @@ body {
   background-color: #202020;
 }
 
-ul, li {
-  margin: 0;
-  padding: 0;
+ul {
+  margin-right: 150px;
+  margin-bottom: 50px;
+  padding-left: 25px;
+  list-style-type: square;
+
+}
+li {
+  padding-left: 5px;
 }
 
-h1, h2, h3, p, a, button, figcaption {
+h1, h2, h3, p, a, button, figcaption, li {
   color: #fff;
   margin: 0;
   font-weight: 400;
@@ -236,10 +242,6 @@ header
   display: none;
 }
 
-/*--navigation kontakt--*/
-
-
-
 /*----------------------------------
 slideshow
 -----------------------------------*/
@@ -276,8 +278,9 @@ slideshow
   display: inline-block;
 }
 
-.aoldescription {
+h1.aoldescription {
   margin: 150px;
+  font-size: 40px;
 }
 
 

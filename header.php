@@ -61,7 +61,6 @@
 							<li>ÖV-Haltestelle vor dem Büro – somit ist verspätetes Ankommen nicht möglich</li>
 						</ul>
 						<p>Wenn du nun nach all diesen Anforderungen immer noch Lust auf einer Bewerbung hast, freuen wir uns dich bei einem persönlichen Gespräch kennenzulernen.</p>
-
 				</article>
 			</div>
 		</div>

@@ -69,8 +69,8 @@ $(document).ready(function () {
 
    // werkliste img //
 
-   $('.werkimg').hover(function() {
-      $(this).children('img').stop(true, false).fadeToggle('slow');
+   $('.werkimglink').click(function() {
+      $(this).next('div').stop(true, false).slideToggle(700);
   });
 
     // slideshow //

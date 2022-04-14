@@ -85,11 +85,15 @@ button {
   line-height: 1.25;
 }
 
-.since, .jobstile {
+.since {
   color: #B3A280;
-  display: inline;
+  display: block;
 }
 
+.jobstile {
+  color: #fff;
+  display: inline;
+}
 
 /*----------------------------------
 header
@@ -232,19 +236,21 @@ header
   color: #828282;
 }
 
-.werkimg p,
-.werkimg p span {
+p.werkimglink,
+p.werkimglink span {
   color: #ffffff;
 }
 
-.werkimg {
+p.werkimglink {
   cursor: pointer;
 }
-.werkimg img {
-  margin-top: 65px;
-  position: absolute;
-  width: 75%;
+.werkimg {
+  width: 50%;
   display: none;
+  transition: none;
+}
+.werkimg img {
+  margin: 20px 0;
 }
 
 /*----------------------------------

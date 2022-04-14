@@ -36,8 +36,18 @@
 				<article class="npcontainer">
 						<div class="viewport"></div>
 						<h1><span>Wir suchen</span>Architekt/in FH 100% <br>Techniker/in HF 100% </h1><br>
-						<p>Falls du überhaupt keine ;) <br><span class="jobstile">A </span>mbitionen hast, aber alles kannst und <br><span class="jobstile">R </span>obust bist und nicht gleich Urlaub benötigst, <br><span class="jobstile">T </span>oll im Umgang mit Menschen bist und auch bei Turbulenzen <br><span class="jobstile">O </span>ptimist bleibst, <br><span class="jobstile">F </span>ormat nicht nur freitags zeigst, gegenüber Vorgesetzten <br><span class="jobstile">L </span>oyalität zeigst und respektvoll zu Mitarbeiter bist, du ein <br><span class="jobstile">O </span>riginal bist, den einen Kopierer besitzen wir bereits, wir dein <br><span class="jobstile">F </span>avorit sind, für dich <br><span class="jobstile">T </span>urbulenzen nur eine Herausforderung bedeuten und den Rest der Anforderungen erfüllst, hast du grosse Chancen auf einen Job bei uns!
-						</p><br><br>
+						<p>
+							<span>Falls du überhaupt keine ;) <br>
+								<span class="jobstile">A </span>mbitionen hast, aber alles kannst und <br>
+								<span class="jobstile">R </span>obust bist und nicht gleich Urlaub benötigst, <br>
+								<span class="jobstile">T </span>oll im Umgang mit Menschen bist und auch bei Turbulenzen <br><br>
+								<span class="jobstile">O </span>ptimist bleibst, <br>
+								<span class="jobstile">F </span>ormat nicht nur freitags zeigst, gegenüber Vorgesetzten <br><br>
+								<span class="jobstile">L </span>oyalität zeigst und respektvoll zu Mitarbeiter bist, du ein <br>
+								<span class="jobstile">O </span>riginal bist, den einen Kopierer besitzen wir bereits, wir dein <br>
+								<span class="jobstile">F </span>avorit sind, für dich <br>
+								<span class="jobstile">T </span>urbulenzen nur eine Herausforderung bedeuten und den Rest der Anforderungen erfüllst, hast du grosse Chancen auf einen Job bei uns!
+						</span></p><br><br>
 						<p><span>Das darfst du bei uns anrichten:</span></p>
 						<ul>
   						<li>Entwickeln, planen und ausführen von der Studie bis zur Realisierung</li>

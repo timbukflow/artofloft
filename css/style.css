@@ -85,6 +85,11 @@ button {
   line-height: 1.25;
 }
 
+.since, .jobstile {
+  color: #B3A280;
+  display: inline;
+}
+
 
 /*----------------------------------
 header
@@ -383,6 +388,17 @@ footer {
 #impressum {
   display: none;
   padding-top: 20px;
+}
+
+#optoutbanner99 a {
+  position: fixed;
+  cursor: pointer;
+  bottom: 0;
+  left: 0;
+	background-color: #202020;
+	padding: 20px 30px;
+	z-index: 200;
+  margin: 15px;
 }
 
 

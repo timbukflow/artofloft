@@ -39,7 +39,7 @@
         </a>
       </div>
     </div>
-    <h1 class="title aoldescription ">Art of Loft AG - Architektur und Projektmanagement. Die andere Sicht der nachhaltigen Architektur unter Einbezug von Funktion, Reduktion und Ästhetik.</h1>
+    <h1 class="title aoldescription ">Art of Loft AG - Architektur und Projektmanagement. Die andere Sicht der nachhaltigen Architektur unter Einbezug von Funktion, Reduktion und Ästhetik. <span class="since">Art of Loft - Seit 1997 - 25 jähriges Jubiläum.</span> </h1>
     <?php include 'footer.php'; ?>
   </div>
   <!--container-background-->

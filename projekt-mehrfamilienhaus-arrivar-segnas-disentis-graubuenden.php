@@ -19,7 +19,7 @@
     <!--container-projekt-->
     <section class="projektcontainer">
       <div class="description">
-        <h1>MFH "Arrivar" (2021) | Segnas-Disentis GR<span>Neubau Chalet mit 4 Eigentumswohnungen </span></h1>
+        <h1>MFH "Arrivar" (2022) | Segnas-Disentis GR<span>Neubau Chalet mit 4 Eigentumswohnungen </span></h1>
         <h2>Kompetenzen: Studie, Baueingabe, Ausführungsplanung, Projektmanagement, Verkauf<span>Status: Baubeginn ab Frühjahr 2023 </span></h2>
       </div>
       <figure class="projektstartimg">

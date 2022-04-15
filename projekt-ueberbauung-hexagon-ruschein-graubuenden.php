@@ -19,7 +19,7 @@
     <!--container-projekt-->
     <section class="projektcontainer">
       <div class="description">
-        <h1>Überbauung "Hexagon" (2020) | Ruschein GR <span>Neubau von 2 Mehrfamilienhäuser mit 5 Erst- und 5 Zweitwohnungen</span></h1>
+        <h1>Überbauung "Hexagon" (2018) | Ruschein GR <span>Neubau von 2 Mehrfamilienhäuser mit 5 Erst- und 5 Zweitwohnungen</span></h1>
         <h2>Kompetenzen: Studie, Baueingabe, Ausführungsplanung, Projektmanagement, Verkauf<span>Status: Realisiert </span></h2>
       </div>
       <figure class="projektstartimg">

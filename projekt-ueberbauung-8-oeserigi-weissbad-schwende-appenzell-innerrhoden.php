@@ -19,7 +19,7 @@
     <!--container-projekt-->
     <section class="projektcontainer">
       <div class="description">
-        <h1>Überbauung "8 Öserigi" (2021) | Weissbad-Schwende AI<span>Neubau von 8 Mehrfamilienhäuser mit 47 Eigentumswohnungen</span></h1>
+        <h1>Überbauung "8 Öserigi" (2022) | Weissbad-Schwende AI<span>Neubau von 8 Mehrfamilienhäuser mit 47 Eigentumswohnungen</span></h1>
         <h2>Kompetenzen: Studie, Baueingabe, Ausführungsplanung, Projektmanagement, Verkauf<span>Status: Baubeginn ab Frühjahr 2022 </span></h2>
         <h2><a class="link" href="https://www.8oeserigi.ch/">&rarr; Projektwebseite 8 Öserigi</a></h2>
       </div>

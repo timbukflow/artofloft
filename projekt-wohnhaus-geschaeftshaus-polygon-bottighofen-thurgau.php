@@ -19,7 +19,7 @@
     <!--container-projekt-->
     <section class="projektcontainer">
       <div class="description">
-        <h1>Wohn-und Gewerbehaus "Polygon" (2016) | Bottighofen TG<span>Neubau von Eigentumswohnungen-, Gewerbe- und Ausstellflächen </span></h1>
+        <h1>Wohn-und Gewerbehaus "Polygon" (2020) | Bottighofen TG<span>Neubau von Eigentumswohnungen-, Gewerbe- und Ausstellflächen </span></h1>
         <h2>Kompetenzen: Studie, Baueingabe, Ausführungsplanung<span>Status: Baubeginn ab Herbst 2022</span></h2>
       </div>
       <figure class="projektstartimg">

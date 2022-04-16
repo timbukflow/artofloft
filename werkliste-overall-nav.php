@@ -233,7 +233,7 @@
     </div>
     <h3 class="accTitle">2002</h3>
     <div class="accList">
-      <p class="werkimglink">Neubau EFH Roth "Raised", Maglasio TI, Wohnungsbau <span>Realisiert</span> </p>
+      <p class="werkimglink">Neubau EFH Roth "Raised", Magliasio TI, Wohnungsbau <span>Realisiert</span> </p>
       <div class="werkimg"><img src="img/werklist-neubau-efh-roth-raised.jpg" alt="werklist-neubau-efh-roth-raised"></div>
       <p>Neubau EFH Schmitz-Scherzer, Berlin DE, Wohnungsbau <span>Realisiert</span> </p>
       <p>Neubau Physiotherapie Part AG, Amriswil TG,	Gewerbebau <span>Studie</span> </p>

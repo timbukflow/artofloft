@@ -37,7 +37,7 @@
 <meta property="business:contact_data:postal_code" content="9000">
 <meta property="business:contact_data:country_name" content="Switzerland">
 
-<meta name="google-site-verification" content="..." />
+<meta name="google-site-verification" content="tNN6TtO39FlyyJmqITcraNLR48Bw0W21tg9mbhd3EsU" />
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/style.css" />
 <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap" rel="stylesheet">

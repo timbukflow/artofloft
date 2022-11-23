@@ -12,7 +12,7 @@
 					<button data-toggle="#wettbewerbe" type="button" name="wettbewerbe"><div>Studien &amp <br> Wettbewerbe</div></button>
 					<button data-toggle="#werkliste" type="button" name="werkliste"><div>Werkliste</div></button>
 					<button data-toggle="#kontakt" type="button" name="kontakt"><div>Kontakt</div></button>
-					<button data-toggle="#job" type="button" name="job"><div>Job</div></button>
+					<!--<button data-toggle="#job" type="button" name="job"><div>Job</div></button>-->
 			</div>
 			<!--container-projekte-->
 			<?php include 'projekt-overall-nav.php'; ?>

@@ -11,7 +11,7 @@
     <p>
       Design &amp; Code:<br>
       Schwizer Design GmbH<br>
-      <a href="https://goo.gl/maps/bBmLDGMJSYqbwbmj8">Gallusstrasse 43<br>9000 St. Gallen</a>
+      <a href="https://goo.gl/maps/bBmLDGMJSYqbwbmj8">Gallusstrasse 43<br>9000 St. Gallen</a><br>
       <a href="https://schwizerdesign.ch/" target="_top">www.schwizerdesign.ch</a><br><br>
     </p>
   </div>

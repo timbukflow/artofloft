@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 7]>	 <html class="no-js lt-ie9 lt-ie8" lang="de"><![endif]-->
-<!--[if IE 8]>	 <html class="no-js lt-ie9" lang="de"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="de">
-<!--<![endif]-->
+<html lang="de">
 <head>
     <meta charset="utf-8">
     <title>Art of Loft - Studie Wettbewerb - Gestaltungsplan Mülibach - Wagenhausen TG</title>

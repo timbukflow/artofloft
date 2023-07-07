@@ -1,16 +1,3 @@
-/*
-    Theme Name: artofloft
-    Description: artofloft
-    Version: 1.0
-    Author: Schwizer & Schlatter
-    Author URI: http://schwizerschlatter.com
-    Tags: No Tags
-
-    Color:
-    Black: #202020
-    Gray-Activ: #828282
-*/
-
 * {
     box-sizing: border-box;
 }
@@ -396,15 +383,65 @@ footer {
   padding-top: 20px;
 }
 
-#optoutbanner99 a {
+
+/*----------------------------------
+    Cookiebanner
+-----------------------------------*/
+
+#cookiebanner {
   position: fixed;
-  cursor: pointer;
-  bottom: 0;
-  left: 0;
-	background-color: #202020;
-	padding: 20px 30px;
-	z-index: 200;
-  margin: 15px;
+  bottom: -300px;
+  left: 40px;
+  border-radius: 5px;
+  width: 350px;
+  background-color: white;
+  padding: 15px;
+  z-index: 9999;
+  transition: bottom 0.5s cubic-bezier(0.2, 0.8, 0.3, 2);
+}
+
+#cookiebanner p {
+  font-size: 18px;
+  color: black;
+  margin: 0;
+}
+
+#cookiebanner.visible {
+  bottom: 25px;
+}
+
+#cookiebanner button {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-decoration: none; 
+}
+
+#declineBtn, #acceptBtn {
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#declineBtn {
+  padding: 10px 20px;
+  background:none;
+  border: 1px solid gray; 
+  color: gray;
+  opacity: 0.5;
+}
+
+#acceptBtn {
+  border: none;
+  padding: 10px 40px;
+  background: black;
+  color: white;
+  margin-right: 5px;
+}
+
+#acceptBtn:hover,
+#declineBtn:hover {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0.75; ;
 }
 
 
@@ -446,5 +483,7 @@ responsive design
   .projektstartimg img { width: 200%;}
   .projektimg.high, .projektimg.high.middle, .projektimg.fullmiddle, .projektimg.hightwo, .projektimg.hightwo.marginR { margin: 20px 10%; width: 80%;}
 
+  #cookiebanner {width: calc(100% - 40px); left: 20px;}
+  #cookiebanner.visible {bottom: 60px;}
 
 }

@@ -6,7 +6,7 @@
   <a href="tel:0714140202"><p>T 071 414 02 02</p></a>
   <a href="mailto:t.von.allmen@art-of-loft.ch" target="_top"><p>Mail</p></a>
 
-  <div class="impressum" data-toggle="#impressum"><p><span>Impressum</span></p></div>
+  <div class="impressum" data-target="#impressum"><p><span>Impressum</span></p></div>
   <div id="impressum">
     <p>
       Design &amp; Code:<br>

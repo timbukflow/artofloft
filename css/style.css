@@ -44,7 +44,7 @@ header h1, header h3, header p{
   padding-right: 100px;
 }
 
-h1 span, p span, h2, h2 span {
+h1 span, p span, h2, h2 span, h3 span {
   color: #828282;
   display: block;
 }
@@ -65,6 +65,7 @@ button:hover {
 }
 
 h1.title,
+h3.title,
 button {
   font-size: 50px;
   font-weight: 300;
@@ -310,6 +311,11 @@ projekt site
   color: #B3A280;
 }
 
+.description.ppp {
+  width: 75%;
+}
+
+
 .projektcontainer {
   display: inline-block;
   position: relative;
@@ -462,6 +468,7 @@ responsive design
   h1.aoldescription {margin: 30px; font-size: 24px;}
   /*projekte*/
   .description { width: 70%; margin: 170px 0px 30px 0px; padding-right: 30px;}
+  .description.ppp {width: 75%; margin: 10%;}
   .projektstartimg { margin: 30px 0;}
   .projektstartimg img { width: 120%;}
   .projektimg.high, .projektimg.high.middle, .projektimg.fullmiddle, .projektimg.hightwo, .projektimg.hightwo.marginR { margin: 30px 10%; width: 80%;}

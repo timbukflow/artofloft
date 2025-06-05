@@ -1,14 +1,30 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="robots" content="all">
 <meta name="robots" content="index, follow" />
 <meta name="author" content="Art of Loft AG">
+<link rel="canonical" href="https://artofloft.ch<?= $_SERVER['REQUEST_URI'] ?>" />
 
 <meta http-equiv="cache-control" content="max-age=0" />
 <meta http-equiv="cache-control" content="no-cache" />
 <meta http-equiv="expires" content="0" />
 <meta http-equiv="pragma" content="no-cache" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Art of Loft AG",
+  "url": "https://artofloft.ch",
+  "logo": "https://artofloft.ch/img/artofloft-logo.svg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Schützengartenweg 3",
+    "addressLocality": "St. Gallen",
+    "postalCode": "9000",
+    "addressCountry": "CH"
+  }
+}
+</script>
 
 <meta property="og:title" content="Art of Loft" />
 <meta property="og:site_name" content="Art of Loft">
@@ -40,4 +56,6 @@
 <meta name="google-site-verification" content="tNN6TtO39FlyyJmqITcraNLR48Bw0W21tg9mbhd3EsU" />
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap" rel="stylesheet">

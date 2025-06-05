@@ -14,6 +14,21 @@
       <a href="index"><img src="img/artofloft-logo.svg" alt="Art of Loft Logo" width="220px" height="auto"></a>
     </div>
     <div id="slideshow">
+      <div style="background-image: url('img/art-of-loft-projekt-neubau-mehrfamilienhaus-zuhausen-donzhausen-tg-01.jpg');">
+        <a class="gotoproject" href="projekt-neubau-mehrfamilienhaus-zuhausen-donzhausen-tg">
+          <h1 class="title" >Neubau «Zuhause»</h1>
+        </a>
+      </div>
+      <div style="background-image: url('img/art-of-loft-projekt-umbau-neubau-efh-wasserauen-ai-01.jpg');">
+        <a class="gotoproject" href="projekt-umbau-neubau-efh-wasserauen-ai">
+          <h1 class="title" >Umbau «en Öserige»</h1>
+        </a>
+      </div>
+      <div style="background-image: url('img/art-of-loft-projekt-penthouse-eigentumswohnungen-sailview-rorschacherberg-sg-01.jpg');">
+        <a class="gotoproject" href="projekt-penthouse-eigentumswohnungen-sailview-rorschacherberg-sg">
+          <h1 class="title" >Penthouse Sailview</h1>
+        </a>
+      </div>
       <div style="background-image: url('img/art-of-loft-projekt-ueberbauung-shield-shelter-amriswil-thurgau-01.jpg');">
         <a class="gotoproject" href="projekt-ueberbauung-shield-shelter-amriswil-thurgau">
           <h1 class="title" >Überbauung Shield & Shelter</h1>
@@ -35,7 +50,7 @@
         </a>
       </div>
     </div>
-    <h1 class="title aoldescription "><span class="since">25 Jahre Art of Loft AG</span>Architektur und Projektmanagement seit 1997 – Die andere Sicht der nachhaltigen Architektur unter Einbezug von Funktion, Reduktion und Ästhetik. </h1>
+    <h1 class="title aoldescription "><span class="since">Art of Loft AG</span>Architektur und Projektmanagement seit 1997 – Die andere Sicht der nachhaltigen Architektur unter Einbezug von Funktion, Reduktion und Ästhetik. </h1>
     <?php include 'footer.php'; ?>
   </div>
   <!--container-background-->

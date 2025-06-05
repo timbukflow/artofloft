@@ -1,5 +1,33 @@
 <div class="navcontent" id="werkliste">
-  <article class="npcontainer">
+  <article class="npcontainer">  
+    <h3 class="accTitle">2025</h3>
+    <div class="accList">
+      <p>Studie mit 5 individuellen Mietwohnungen «Nachtlicht», Steinach SG, Wohnungsbau <span>Studie</span></p>
+      <p class="werkimglink"><a href="projekt-neubau-mehrfamilienhaus-zuhausen-donzhausen-tg">2 Neubau-MFH &amp; 1 Bestand-MFH «Zuhause», Donzhausen TG, Wohnungsbau (12 STWEG) <span>Baueingabe Q3 2025</span></a></p>
+      <p class="werkimglink">Umgebungsgestaltung EFH, Heiden AR, Wohnungsbau <span>Studie</span></p>
+      <div class="werkimg"><img src="img/werklist-umgebungsgestaltung-efh-heiden-ar-wohnungsbau.jpg" alt="werklist-umgebungsgestaltung-efh-heiden-ar-wohnungsbau.jpg"></div>
+    </div>
+    <h3 class="accTitle">2024</h3>
+    <div class="accList">
+      <p>Studie Doppeleinfamilienhaus, Flawil SG, Wohnungsbau <span>Studie</span></p>
+      <p class="werkimglink"><a href="projekt-penthouse-eigentumswohnungen-sailview-rorschacherberg-sg">Penthouse und Zwei Eigentumswohnungen «Sailview», Rorschacherberg SG, Wohnungsbau <span>Baubeginn Vakant</span></a></p>
+      <p class="werkimglink"><a href="projekt-umbau-neubau-efh-wasserauen-ai">Umbau EFH Wasserauen, Wasserauen AI, Wohnungsbau <span>Voraussichtlicher Baubeginn ab Frühjahr 2026</span></a></p>
+      <p>Umbau EFH, Linthal GL, Wohnungsbau <span>Realisiert 2024</span></p>
+      <p class="werkimglink">MFH mit 4 individuellen Eigentumswohnungen «Lookthrough», Amriswil TG, Wohnungsbau (4 STWEG) <span>Studie</span></p>
+      <div class="werkimg"><img src="img/werklist-mfh-individuellen-eigentumswohnungen-lookthrough.jpg" alt="werklist-mfh-individuellen-eigentumswohnungen-lookthrough"></div>
+      <p class="werkimglink"><a href="studie-neubau-einfamilienhaus-schaffhausen-sh">Studie EFH «Habitat», Schaffhausen SH, Wohnungsbau <span>Studie</span></a></p>
+      <p class="werkimglink">Neubau MFH Rorschacherberg, Rorschacherberg SG, Wohnungsbau <span>Studie</span></p>
+      <div class="werkimg"><img src="img/werklist-neubau-mfh-rorschacherberg-sg.jpg" alt="werklist-neubau-mfh-rorschacherberg-sg"></div>
+      <p>Neubau MFH mit 2 Individuellen Eigentumswohnungen Disentis, Disentis/Mustér GR, Wohnungsbau (2 STWEG) <span>Voraussichtlicher Baubeginn ab Sommer 2025</span></p>
+      <p class="werkimglink"><a href="studie-neubau-eigentumswohnungen-appenzell-ai">Studienwettbewerb MFH Zielstrasse 7, Appenzell AI, Wohnungsbau <span>Studienwettbewerb (2.Rang)</span></a></p>
+      <p>Umbaustudie EFH Flawil, Flawil SG, Wohnungsbau <span>Studie</span></p>
+    </div>
+    <h3 class="accTitle">2023</h3>
+    <div class="accList">
+      <p>Neubau MFH mit 3 individuellen Eigentumswohnungen «Goodie», Rorschacherberg SG, Wohnungsbau (3 STWEG) <span>Baubewilligungsverfahren</span></p>
+      <p>Neubau DEFH Bichwil, Bichwil SG, Wohnungsbau <span>In Realisierung</span></p>
+      <p>Neubau MFH «Acletta», Disentis/Mustér GR, Wohnungsbau (3 STWEG) <span>In Realisierung</span></p>
+    </div>
     <h3 class="accTitle">2022</h3>
     <div class="accList">
       <p>Umbau WHG.-EG Lhotka 8 - 9,	Kremze CZ,	Wohnungsbau	<span>Studie / Ausführungsplanung</span> </p>
